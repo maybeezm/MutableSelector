@@ -1,0 +1,852 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6240143493B77F8D5E6AD341 /* libPods-HiveApp526.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 26BD6D7E5E3A73769B0766EA /* libPods-HiveApp526.a */; };
+		A441C583206C7C7B007E3479 /* libstdc++.6.0.9.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = A441C582206C7C7B007E3479 /* libstdc++.6.0.9.tbd */; };
+		A468CB49208898BE00188C72 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A468CB48208898BE00188C72 /* ViewController.m */; };
+		A468CB4C2088990800188C72 /* ViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = A468CB4B2088990800188C72 /* ViewModel.m */; };
+		A468CB522089931600188C72 /* UIViewController+Selector.m in Sources */ = {isa = PBXBuildFile; fileRef = A468CB512089931600188C72 /* UIViewController+Selector.m */; };
+		A468CB552089C1D100188C72 /* UIView+border.m in Sources */ = {isa = PBXBuildFile; fileRef = A468CB542089C1D100188C72 /* UIView+border.m */; };
+		A468CB582089CF4E00188C72 /* SelectorBaseView.m in Sources */ = {isa = PBXBuildFile; fileRef = A468CB572089CF4E00188C72 /* SelectorBaseView.m */; };
+		A468CB5B208A0AD400188C72 /* SelectorContentView.m in Sources */ = {isa = PBXBuildFile; fileRef = A468CB5A208A0AD400188C72 /* SelectorContentView.m */; };
+		A48C18D2208D800100DA0EDA /* BaiduSearchRecentFlowLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = A48C18D1208D800000DA0EDA /* BaiduSearchRecentFlowLayout.m */; };
+		A48C18D5208D801200DA0EDA /* BaiduSearchRecentCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = A48C18D4208D801200DA0EDA /* BaiduSearchRecentCollectionViewCell.m */; };
+		A48C18DB208D845000DA0EDA /* SelectorMainModel.m in Sources */ = {isa = PBXBuildFile; fileRef = A48C18DA208D845000DA0EDA /* SelectorMainModel.m */; };
+		A48C18DE208D847900DA0EDA /* SelectorChooseModel.m in Sources */ = {isa = PBXBuildFile; fileRef = A48C18DD208D847900DA0EDA /* SelectorChooseModel.m */; };
+		A48C18E1208D855800DA0EDA /* SelectorSectionModel.m in Sources */ = {isa = PBXBuildFile; fileRef = A48C18E0208D855800DA0EDA /* SelectorSectionModel.m */; };
+		A48C18E4208D86F300DA0EDA /* SelectorLeftTitleTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = A48C18E3208D86F300DA0EDA /* SelectorLeftTitleTableViewCell.m */; };
+		A48C18E7208D870800DA0EDA /* SelectorChooseTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = A48C18E6208D870800DA0EDA /* SelectorChooseTableViewCell.m */; };
+		A48C18EB208DAE6B00DA0EDA /* SelectorLeftGroupModel.m in Sources */ = {isa = PBXBuildFile; fileRef = A48C18EA208DAE6B00DA0EDA /* SelectorLeftGroupModel.m */; };
+		A48C18EE208DAFAD00DA0EDA /* SelectorRightItemModel.m in Sources */ = {isa = PBXBuildFile; fileRef = A48C18ED208DAFAD00DA0EDA /* SelectorRightItemModel.m */; };
+		A48C18F1208DB0AD00DA0EDA /* SelectorTimeModel.m in Sources */ = {isa = PBXBuildFile; fileRef = A48C18F0208DB0AD00DA0EDA /* SelectorTimeModel.m */; };
+		A48C18F4208DD44F00DA0EDA /* SelectorButtonTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = A48C18F3208DD44F00DA0EDA /* SelectorButtonTableViewCell.m */; };
+		A48C18F7208DE3D300DA0EDA /* SelectorTimeTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = A48C18F6208DE3D300DA0EDA /* SelectorTimeTableViewCell.m */; };
+		A4CDF572206A1F81002F80EA /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A4CDF571206A1F81002F80EA /* AppDelegate.m */; };
+		A4CDF578206A1F81002F80EA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A4CDF576206A1F81002F80EA /* Main.storyboard */; };
+		A4CDF57A206A1F81002F80EA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A4CDF579206A1F81002F80EA /* Assets.xcassets */; };
+		A4CDF57D206A1F81002F80EA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A4CDF57B206A1F81002F80EA /* LaunchScreen.storyboard */; };
+		A4CDF580206A1F81002F80EA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A4CDF57F206A1F81002F80EA /* main.m */; };
+		A4CDF58A206A1F81002F80EA /* HiveApp526Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = A4CDF589206A1F81002F80EA /* HiveApp526Tests.m */; };
+		A4CDF595206A1F81002F80EA /* HiveApp526UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = A4CDF594206A1F81002F80EA /* HiveApp526UITests.m */; };
+		A4CDF5A4206A2004002F80EA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A4CDF5A3206A2004002F80EA /* Foundation.framework */; };
+		A4CDF5A6206A200A002F80EA /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A4CDF5A5206A200A002F80EA /* UIKit.framework */; };
+		A4CDF5A8206A2012002F80EA /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A4CDF5A7206A2012002F80EA /* SystemConfiguration.framework */; };
+		A4CDF5AA206A2017002F80EA /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A4CDF5A9206A2017002F80EA /* CoreLocation.framework */; };
+		A4CDF5AC206A201E002F80EA /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A4CDF5AB206A201E002F80EA /* OpenGLES.framework */; };
+		A4CDF5AE206A2026002F80EA /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A4CDF5AD206A2026002F80EA /* Security.framework */; };
+		A4CDF5B0206A202D002F80EA /* libsqlite3.0.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = A4CDF5AF206A202D002F80EA /* libsqlite3.0.tbd */; };
+		A4CDF5B6206A20A5002F80EA /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A4CDF5B5206A20A5002F80EA /* CoreTelephony.framework */; };
+		A4CDF5B8206A20C0002F80EA /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A4CDF5B7206A20C0002F80EA /* QuartzCore.framework */; };
+		A4CDF5BA206A20C8002F80EA /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A4CDF5B9206A20C8002F80EA /* CoreGraphics.framework */; };
+		A4CDF5BE206A20DD002F80EA /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A4CDF5BD206A20DD002F80EA /* MessageUI.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A4CDF586206A1F81002F80EA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A4CDF565206A1F81002F80EA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A4CDF56C206A1F81002F80EA;
+			remoteInfo = HiveApp526;
+		};
+		A4CDF591206A1F81002F80EA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A4CDF565206A1F81002F80EA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A4CDF56C206A1F81002F80EA;
+			remoteInfo = HiveApp526;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		26BD6D7E5E3A73769B0766EA /* libPods-HiveApp526.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-HiveApp526.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		64DF2B97E03CCE2658B48610 /* Pods-HiveApp526.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HiveApp526.release.xcconfig"; path = "Pods/Target Support Files/Pods-HiveApp526/Pods-HiveApp526.release.xcconfig"; sourceTree = "<group>"; };
+		A41D9287206C79BE006DF721 /* mapapi.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = mapapi.bundle; path = HiveApp526/BaiduMapAPI/mapapi.bundle; sourceTree = "<group>"; };
+		A441C582206C7C7B007E3479 /* libstdc++.6.0.9.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libstdc++.6.0.9.tbd"; path = "usr/lib/libstdc++.6.0.9.tbd"; sourceTree = SDKROOT; };
+		A468CB47208898BE00188C72 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		A468CB48208898BE00188C72 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		A468CB4A2088990800188C72 /* ViewModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewModel.h; sourceTree = "<group>"; };
+		A468CB4B2088990800188C72 /* ViewModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewModel.m; sourceTree = "<group>"; };
+		A468CB502089931600188C72 /* UIViewController+Selector.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIViewController+Selector.h"; sourceTree = "<group>"; };
+		A468CB512089931600188C72 /* UIViewController+Selector.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+Selector.m"; sourceTree = "<group>"; };
+		A468CB532089C1D100188C72 /* UIView+border.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIView+border.h"; sourceTree = "<group>"; };
+		A468CB542089C1D100188C72 /* UIView+border.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIView+border.m"; sourceTree = "<group>"; };
+		A468CB562089CF4E00188C72 /* SelectorBaseView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SelectorBaseView.h; sourceTree = "<group>"; };
+		A468CB572089CF4E00188C72 /* SelectorBaseView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SelectorBaseView.m; sourceTree = "<group>"; };
+		A468CB59208A0AD400188C72 /* SelectorContentView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SelectorContentView.h; sourceTree = "<group>"; };
+		A468CB5A208A0AD400188C72 /* SelectorContentView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SelectorContentView.m; sourceTree = "<group>"; };
+		A48C18D0208D800000DA0EDA /* BaiduSearchRecentFlowLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaiduSearchRecentFlowLayout.h; sourceTree = "<group>"; };
+		A48C18D1208D800000DA0EDA /* BaiduSearchRecentFlowLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaiduSearchRecentFlowLayout.m; sourceTree = "<group>"; };
+		A48C18D3208D801200DA0EDA /* BaiduSearchRecentCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaiduSearchRecentCollectionViewCell.h; sourceTree = "<group>"; };
+		A48C18D4208D801200DA0EDA /* BaiduSearchRecentCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaiduSearchRecentCollectionViewCell.m; sourceTree = "<group>"; };
+		A48C18D9208D845000DA0EDA /* SelectorMainModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SelectorMainModel.h; sourceTree = "<group>"; };
+		A48C18DA208D845000DA0EDA /* SelectorMainModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SelectorMainModel.m; sourceTree = "<group>"; };
+		A48C18DC208D847900DA0EDA /* SelectorChooseModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SelectorChooseModel.h; sourceTree = "<group>"; };
+		A48C18DD208D847900DA0EDA /* SelectorChooseModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SelectorChooseModel.m; sourceTree = "<group>"; };
+		A48C18DF208D855800DA0EDA /* SelectorSectionModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SelectorSectionModel.h; sourceTree = "<group>"; };
+		A48C18E0208D855800DA0EDA /* SelectorSectionModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SelectorSectionModel.m; sourceTree = "<group>"; };
+		A48C18E2208D86F300DA0EDA /* SelectorLeftTitleTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SelectorLeftTitleTableViewCell.h; sourceTree = "<group>"; };
+		A48C18E3208D86F300DA0EDA /* SelectorLeftTitleTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SelectorLeftTitleTableViewCell.m; sourceTree = "<group>"; };
+		A48C18E5208D870800DA0EDA /* SelectorChooseTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SelectorChooseTableViewCell.h; sourceTree = "<group>"; };
+		A48C18E6208D870800DA0EDA /* SelectorChooseTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SelectorChooseTableViewCell.m; sourceTree = "<group>"; };
+		A48C18E8208D888100DA0EDA /* SelectorChooseModelProtocol.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SelectorChooseModelProtocol.h; sourceTree = "<group>"; };
+		A48C18E9208DAE6B00DA0EDA /* SelectorLeftGroupModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SelectorLeftGroupModel.h; sourceTree = "<group>"; };
+		A48C18EA208DAE6B00DA0EDA /* SelectorLeftGroupModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SelectorLeftGroupModel.m; sourceTree = "<group>"; };
+		A48C18EC208DAFAD00DA0EDA /* SelectorRightItemModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SelectorRightItemModel.h; sourceTree = "<group>"; };
+		A48C18ED208DAFAD00DA0EDA /* SelectorRightItemModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SelectorRightItemModel.m; sourceTree = "<group>"; };
+		A48C18EF208DB0AD00DA0EDA /* SelectorTimeModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SelectorTimeModel.h; sourceTree = "<group>"; };
+		A48C18F0208DB0AD00DA0EDA /* SelectorTimeModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SelectorTimeModel.m; sourceTree = "<group>"; };
+		A48C18F2208DD44F00DA0EDA /* SelectorButtonTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SelectorButtonTableViewCell.h; sourceTree = "<group>"; };
+		A48C18F3208DD44F00DA0EDA /* SelectorButtonTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SelectorButtonTableViewCell.m; sourceTree = "<group>"; };
+		A48C18F5208DE3D300DA0EDA /* SelectorTimeTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SelectorTimeTableViewCell.h; sourceTree = "<group>"; };
+		A48C18F6208DE3D300DA0EDA /* SelectorTimeTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SelectorTimeTableViewCell.m; sourceTree = "<group>"; };
+		A4CDF56D206A1F81002F80EA /* HiveApp526.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HiveApp526.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A4CDF570206A1F81002F80EA /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		A4CDF571206A1F81002F80EA /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		A4CDF577206A1F81002F80EA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A4CDF579206A1F81002F80EA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A4CDF57C206A1F81002F80EA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A4CDF57E206A1F81002F80EA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A4CDF57F206A1F81002F80EA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A4CDF585206A1F81002F80EA /* HiveApp526Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HiveApp526Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A4CDF589206A1F81002F80EA /* HiveApp526Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HiveApp526Tests.m; sourceTree = "<group>"; };
+		A4CDF58B206A1F81002F80EA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A4CDF590206A1F81002F80EA /* HiveApp526UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HiveApp526UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A4CDF594206A1F81002F80EA /* HiveApp526UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HiveApp526UITests.m; sourceTree = "<group>"; };
+		A4CDF596206A1F81002F80EA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A4CDF5A3206A2004002F80EA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		A4CDF5A5206A200A002F80EA /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		A4CDF5A7206A2012002F80EA /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		A4CDF5A9206A2017002F80EA /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		A4CDF5AB206A201E002F80EA /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
+		A4CDF5AD206A2026002F80EA /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		A4CDF5AF206A202D002F80EA /* libsqlite3.0.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.0.tbd; path = usr/lib/libsqlite3.0.tbd; sourceTree = SDKROOT; };
+		A4CDF5B3206A209A002F80EA /* libcrypto.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libcrypto.a; path = HiveApp526/BaiduMapAPI/thirdlibs/libcrypto.a; sourceTree = "<group>"; };
+		A4CDF5B5206A20A5002F80EA /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = System/Library/Frameworks/CoreTelephony.framework; sourceTree = SDKROOT; };
+		A4CDF5B7206A20C0002F80EA /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		A4CDF5B9206A20C8002F80EA /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		A4CDF5BB206A20D5002F80EA /* libssl.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libssl.a; path = HiveApp526/BaiduMapAPI/thirdlibs/libssl.a; sourceTree = "<group>"; };
+		A4CDF5BD206A20DD002F80EA /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = System/Library/Frameworks/MessageUI.framework; sourceTree = SDKROOT; };
+		A4CDF5BF206A20E8002F80EA /* BaiduMapAPI_Search.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = BaiduMapAPI_Search.framework; path = HiveApp526/BaiduMapAPI/BaiduMapAPI_Search.framework; sourceTree = "<group>"; };
+		A4CDF5C0206A20E9002F80EA /* BaiduMapAPI_Map.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = BaiduMapAPI_Map.framework; path = HiveApp526/BaiduMapAPI/BaiduMapAPI_Map.framework; sourceTree = "<group>"; };
+		A4CDF5C1206A20E9002F80EA /* BaiduMapAPI_Base.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = BaiduMapAPI_Base.framework; path = HiveApp526/BaiduMapAPI/BaiduMapAPI_Base.framework; sourceTree = "<group>"; };
+		A4CDF5C2206A20E9002F80EA /* BaiduMapAPI_Location.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = BaiduMapAPI_Location.framework; path = HiveApp526/BaiduMapAPI/BaiduMapAPI_Location.framework; sourceTree = "<group>"; };
+		A4CDF5C3206A20E9002F80EA /* BaiduMapAPI_Utils.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = BaiduMapAPI_Utils.framework; path = HiveApp526/BaiduMapAPI/BaiduMapAPI_Utils.framework; sourceTree = "<group>"; };
+		A4CDF5C4206A20E9002F80EA /* BaiduMapAPI_Cloud.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = BaiduMapAPI_Cloud.framework; path = HiveApp526/BaiduMapAPI/BaiduMapAPI_Cloud.framework; sourceTree = "<group>"; };
+		A4CDF5C5206A20E9002F80EA /* BaiduMapAPI_Radar.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = BaiduMapAPI_Radar.framework; path = HiveApp526/BaiduMapAPI/BaiduMapAPI_Radar.framework; sourceTree = "<group>"; };
+		B375082921EACB9A320C8A7B /* Pods-HiveApp526.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HiveApp526.debug.xcconfig"; path = "Pods/Target Support Files/Pods-HiveApp526/Pods-HiveApp526.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A4CDF56A206A1F81002F80EA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A441C583206C7C7B007E3479 /* libstdc++.6.0.9.tbd in Frameworks */,
+				A4CDF5BE206A20DD002F80EA /* MessageUI.framework in Frameworks */,
+				A4CDF5BA206A20C8002F80EA /* CoreGraphics.framework in Frameworks */,
+				A4CDF5B8206A20C0002F80EA /* QuartzCore.framework in Frameworks */,
+				A4CDF5B0206A202D002F80EA /* libsqlite3.0.tbd in Frameworks */,
+				A4CDF5B6206A20A5002F80EA /* CoreTelephony.framework in Frameworks */,
+				A4CDF5AE206A2026002F80EA /* Security.framework in Frameworks */,
+				A4CDF5AC206A201E002F80EA /* OpenGLES.framework in Frameworks */,
+				A4CDF5AA206A2017002F80EA /* CoreLocation.framework in Frameworks */,
+				A4CDF5A8206A2012002F80EA /* SystemConfiguration.framework in Frameworks */,
+				A4CDF5A6206A200A002F80EA /* UIKit.framework in Frameworks */,
+				A4CDF5A4206A2004002F80EA /* Foundation.framework in Frameworks */,
+				6240143493B77F8D5E6AD341 /* libPods-HiveApp526.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A4CDF582206A1F81002F80EA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A4CDF58D206A1F81002F80EA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9C98BCAB537CACDB380ACE5F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B375082921EACB9A320C8A7B /* Pods-HiveApp526.debug.xcconfig */,
+				64DF2B97E03CCE2658B48610 /* Pods-HiveApp526.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		A48C18D6208D81A700DA0EDA /* SelectorContentView */ = {
+			isa = PBXGroup;
+			children = (
+				A48C18D8208D843300DA0EDA /* View */,
+				A48C18D7208D842C00DA0EDA /* Model */,
+			);
+			path = SelectorContentView;
+			sourceTree = "<group>";
+		};
+		A48C18D7208D842C00DA0EDA /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				A48C18E8208D888100DA0EDA /* SelectorChooseModelProtocol.h */,
+				A48C18D9208D845000DA0EDA /* SelectorMainModel.h */,
+				A48C18DA208D845000DA0EDA /* SelectorMainModel.m */,
+				A48C18DF208D855800DA0EDA /* SelectorSectionModel.h */,
+				A48C18E0208D855800DA0EDA /* SelectorSectionModel.m */,
+				A48C18DC208D847900DA0EDA /* SelectorChooseModel.h */,
+				A48C18DD208D847900DA0EDA /* SelectorChooseModel.m */,
+				A48C18E9208DAE6B00DA0EDA /* SelectorLeftGroupModel.h */,
+				A48C18EA208DAE6B00DA0EDA /* SelectorLeftGroupModel.m */,
+				A48C18EC208DAFAD00DA0EDA /* SelectorRightItemModel.h */,
+				A48C18ED208DAFAD00DA0EDA /* SelectorRightItemModel.m */,
+				A48C18EF208DB0AD00DA0EDA /* SelectorTimeModel.h */,
+				A48C18F0208DB0AD00DA0EDA /* SelectorTimeModel.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		A48C18D8208D843300DA0EDA /* View */ = {
+			isa = PBXGroup;
+			children = (
+				A48C18D3208D801200DA0EDA /* BaiduSearchRecentCollectionViewCell.h */,
+				A48C18D4208D801200DA0EDA /* BaiduSearchRecentCollectionViewCell.m */,
+				A48C18D0208D800000DA0EDA /* BaiduSearchRecentFlowLayout.h */,
+				A48C18D1208D800000DA0EDA /* BaiduSearchRecentFlowLayout.m */,
+				A48C18E2208D86F300DA0EDA /* SelectorLeftTitleTableViewCell.h */,
+				A48C18E3208D86F300DA0EDA /* SelectorLeftTitleTableViewCell.m */,
+				A48C18E5208D870800DA0EDA /* SelectorChooseTableViewCell.h */,
+				A48C18E6208D870800DA0EDA /* SelectorChooseTableViewCell.m */,
+				A48C18F2208DD44F00DA0EDA /* SelectorButtonTableViewCell.h */,
+				A48C18F3208DD44F00DA0EDA /* SelectorButtonTableViewCell.m */,
+				A48C18F5208DE3D300DA0EDA /* SelectorTimeTableViewCell.h */,
+				A48C18F6208DE3D300DA0EDA /* SelectorTimeTableViewCell.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		A4CDF564206A1F81002F80EA = {
+			isa = PBXGroup;
+			children = (
+				A4CDF56F206A1F81002F80EA /* HiveApp526 */,
+				A4CDF588206A1F81002F80EA /* HiveApp526Tests */,
+				A4CDF593206A1F81002F80EA /* HiveApp526UITests */,
+				A4CDF56E206A1F81002F80EA /* Products */,
+				A4CDF5A2206A2004002F80EA /* Frameworks */,
+				9C98BCAB537CACDB380ACE5F /* Pods */,
+			);
+			sourceTree = "<group>";
+		};
+		A4CDF56E206A1F81002F80EA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A4CDF56D206A1F81002F80EA /* HiveApp526.app */,
+				A4CDF585206A1F81002F80EA /* HiveApp526Tests.xctest */,
+				A4CDF590206A1F81002F80EA /* HiveApp526UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A4CDF56F206A1F81002F80EA /* HiveApp526 */ = {
+			isa = PBXGroup;
+			children = (
+				A4CDF570206A1F81002F80EA /* AppDelegate.h */,
+				A4CDF571206A1F81002F80EA /* AppDelegate.m */,
+				A4CDF576206A1F81002F80EA /* Main.storyboard */,
+				A468CB47208898BE00188C72 /* ViewController.h */,
+				A468CB48208898BE00188C72 /* ViewController.m */,
+				A468CB532089C1D100188C72 /* UIView+border.h */,
+				A468CB542089C1D100188C72 /* UIView+border.m */,
+				A468CB502089931600188C72 /* UIViewController+Selector.h */,
+				A468CB512089931600188C72 /* UIViewController+Selector.m */,
+				A468CB562089CF4E00188C72 /* SelectorBaseView.h */,
+				A468CB572089CF4E00188C72 /* SelectorBaseView.m */,
+				A468CB59208A0AD400188C72 /* SelectorContentView.h */,
+				A468CB5A208A0AD400188C72 /* SelectorContentView.m */,
+				A48C18D6208D81A700DA0EDA /* SelectorContentView */,
+				A468CB4A2088990800188C72 /* ViewModel.h */,
+				A468CB4B2088990800188C72 /* ViewModel.m */,
+				A4CDF579206A1F81002F80EA /* Assets.xcassets */,
+				A4CDF57B206A1F81002F80EA /* LaunchScreen.storyboard */,
+				A4CDF57E206A1F81002F80EA /* Info.plist */,
+				A4CDF57F206A1F81002F80EA /* main.m */,
+			);
+			path = HiveApp526;
+			sourceTree = "<group>";
+		};
+		A4CDF588206A1F81002F80EA /* HiveApp526Tests */ = {
+			isa = PBXGroup;
+			children = (
+				A4CDF589206A1F81002F80EA /* HiveApp526Tests.m */,
+				A4CDF58B206A1F81002F80EA /* Info.plist */,
+			);
+			path = HiveApp526Tests;
+			sourceTree = "<group>";
+		};
+		A4CDF593206A1F81002F80EA /* HiveApp526UITests */ = {
+			isa = PBXGroup;
+			children = (
+				A4CDF594206A1F81002F80EA /* HiveApp526UITests.m */,
+				A4CDF596206A1F81002F80EA /* Info.plist */,
+			);
+			path = HiveApp526UITests;
+			sourceTree = "<group>";
+		};
+		A4CDF5A2206A2004002F80EA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A441C582206C7C7B007E3479 /* libstdc++.6.0.9.tbd */,
+				A41D9287206C79BE006DF721 /* mapapi.bundle */,
+				A4CDF5C1206A20E9002F80EA /* BaiduMapAPI_Base.framework */,
+				A4CDF5C4206A20E9002F80EA /* BaiduMapAPI_Cloud.framework */,
+				A4CDF5C2206A20E9002F80EA /* BaiduMapAPI_Location.framework */,
+				A4CDF5C0206A20E9002F80EA /* BaiduMapAPI_Map.framework */,
+				A4CDF5C5206A20E9002F80EA /* BaiduMapAPI_Radar.framework */,
+				A4CDF5BF206A20E8002F80EA /* BaiduMapAPI_Search.framework */,
+				A4CDF5C3206A20E9002F80EA /* BaiduMapAPI_Utils.framework */,
+				A4CDF5BD206A20DD002F80EA /* MessageUI.framework */,
+				A4CDF5BB206A20D5002F80EA /* libssl.a */,
+				A4CDF5B9206A20C8002F80EA /* CoreGraphics.framework */,
+				A4CDF5B7206A20C0002F80EA /* QuartzCore.framework */,
+				A4CDF5B5206A20A5002F80EA /* CoreTelephony.framework */,
+				A4CDF5B3206A209A002F80EA /* libcrypto.a */,
+				A4CDF5AF206A202D002F80EA /* libsqlite3.0.tbd */,
+				A4CDF5AD206A2026002F80EA /* Security.framework */,
+				A4CDF5AB206A201E002F80EA /* OpenGLES.framework */,
+				A4CDF5A9206A2017002F80EA /* CoreLocation.framework */,
+				A4CDF5A7206A2012002F80EA /* SystemConfiguration.framework */,
+				A4CDF5A5206A200A002F80EA /* UIKit.framework */,
+				A4CDF5A3206A2004002F80EA /* Foundation.framework */,
+				26BD6D7E5E3A73769B0766EA /* libPods-HiveApp526.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A4CDF56C206A1F81002F80EA /* HiveApp526 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A4CDF599206A1F81002F80EA /* Build configuration list for PBXNativeTarget "HiveApp526" */;
+			buildPhases = (
+				00D37554DAFAC23E4CB35F3B /* [CP] Check Pods Manifest.lock */,
+				A4CDF569206A1F81002F80EA /* Sources */,
+				A4CDF56A206A1F81002F80EA /* Frameworks */,
+				A4CDF56B206A1F81002F80EA /* Resources */,
+				EA5EB516511B0587CBA886AF /* [CP] Embed Pods Frameworks */,
+				F0A38C5051D3D6FCABE48D39 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HiveApp526;
+			productName = HiveApp526;
+			productReference = A4CDF56D206A1F81002F80EA /* HiveApp526.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A4CDF584206A1F81002F80EA /* HiveApp526Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A4CDF59C206A1F81002F80EA /* Build configuration list for PBXNativeTarget "HiveApp526Tests" */;
+			buildPhases = (
+				A4CDF581206A1F81002F80EA /* Sources */,
+				A4CDF582206A1F81002F80EA /* Frameworks */,
+				A4CDF583206A1F81002F80EA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A4CDF587206A1F81002F80EA /* PBXTargetDependency */,
+			);
+			name = HiveApp526Tests;
+			productName = HiveApp526Tests;
+			productReference = A4CDF585206A1F81002F80EA /* HiveApp526Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		A4CDF58F206A1F81002F80EA /* HiveApp526UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A4CDF59F206A1F81002F80EA /* Build configuration list for PBXNativeTarget "HiveApp526UITests" */;
+			buildPhases = (
+				A4CDF58C206A1F81002F80EA /* Sources */,
+				A4CDF58D206A1F81002F80EA /* Frameworks */,
+				A4CDF58E206A1F81002F80EA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A4CDF592206A1F81002F80EA /* PBXTargetDependency */,
+			);
+			name = HiveApp526UITests;
+			productName = HiveApp526UITests;
+			productReference = A4CDF590206A1F81002F80EA /* HiveApp526UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A4CDF565206A1F81002F80EA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = maybee;
+				TargetAttributes = {
+					A4CDF56C206A1F81002F80EA = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Manual;
+					};
+					A4CDF584206A1F81002F80EA = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = A4CDF56C206A1F81002F80EA;
+					};
+					A4CDF58F206A1F81002F80EA = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = A4CDF56C206A1F81002F80EA;
+					};
+				};
+			};
+			buildConfigurationList = A4CDF568206A1F81002F80EA /* Build configuration list for PBXProject "HiveApp526" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A4CDF564206A1F81002F80EA;
+			productRefGroup = A4CDF56E206A1F81002F80EA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A4CDF56C206A1F81002F80EA /* HiveApp526 */,
+				A4CDF584206A1F81002F80EA /* HiveApp526Tests */,
+				A4CDF58F206A1F81002F80EA /* HiveApp526UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A4CDF56B206A1F81002F80EA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A4CDF57D206A1F81002F80EA /* LaunchScreen.storyboard in Resources */,
+				A4CDF57A206A1F81002F80EA /* Assets.xcassets in Resources */,
+				A4CDF578206A1F81002F80EA /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A4CDF583206A1F81002F80EA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A4CDF58E206A1F81002F80EA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		00D37554DAFAC23E4CB35F3B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-HiveApp526-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EA5EB516511B0587CBA886AF /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-HiveApp526/Pods-HiveApp526-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F0A38C5051D3D6FCABE48D39 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-HiveApp526/Pods-HiveApp526-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A4CDF569206A1F81002F80EA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A48C18F4208DD44F00DA0EDA /* SelectorButtonTableViewCell.m in Sources */,
+				A48C18F7208DE3D300DA0EDA /* SelectorTimeTableViewCell.m in Sources */,
+				A48C18DB208D845000DA0EDA /* SelectorMainModel.m in Sources */,
+				A48C18D2208D800100DA0EDA /* BaiduSearchRecentFlowLayout.m in Sources */,
+				A468CB49208898BE00188C72 /* ViewController.m in Sources */,
+				A48C18EE208DAFAD00DA0EDA /* SelectorRightItemModel.m in Sources */,
+				A48C18DE208D847900DA0EDA /* SelectorChooseModel.m in Sources */,
+				A4CDF580206A1F81002F80EA /* main.m in Sources */,
+				A468CB552089C1D100188C72 /* UIView+border.m in Sources */,
+				A48C18F1208DB0AD00DA0EDA /* SelectorTimeModel.m in Sources */,
+				A468CB4C2088990800188C72 /* ViewModel.m in Sources */,
+				A468CB582089CF4E00188C72 /* SelectorBaseView.m in Sources */,
+				A4CDF572206A1F81002F80EA /* AppDelegate.m in Sources */,
+				A48C18E7208D870800DA0EDA /* SelectorChooseTableViewCell.m in Sources */,
+				A468CB522089931600188C72 /* UIViewController+Selector.m in Sources */,
+				A468CB5B208A0AD400188C72 /* SelectorContentView.m in Sources */,
+				A48C18E1208D855800DA0EDA /* SelectorSectionModel.m in Sources */,
+				A48C18EB208DAE6B00DA0EDA /* SelectorLeftGroupModel.m in Sources */,
+				A48C18D5208D801200DA0EDA /* BaiduSearchRecentCollectionViewCell.m in Sources */,
+				A48C18E4208D86F300DA0EDA /* SelectorLeftTitleTableViewCell.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A4CDF581206A1F81002F80EA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A4CDF58A206A1F81002F80EA /* HiveApp526Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A4CDF58C206A1F81002F80EA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A4CDF595206A1F81002F80EA /* HiveApp526UITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A4CDF587206A1F81002F80EA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A4CDF56C206A1F81002F80EA /* HiveApp526 */;
+			targetProxy = A4CDF586206A1F81002F80EA /* PBXContainerItemProxy */;
+		};
+		A4CDF592206A1F81002F80EA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A4CDF56C206A1F81002F80EA /* HiveApp526 */;
+			targetProxy = A4CDF591206A1F81002F80EA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A4CDF576206A1F81002F80EA /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A4CDF577206A1F81002F80EA /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A4CDF57B206A1F81002F80EA /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A4CDF57C206A1F81002F80EA /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A4CDF597206A1F81002F80EA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		A4CDF598206A1F81002F80EA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A4CDF59A206A1F81002F80EA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B375082921EACB9A320C8A7B /* Pods-HiveApp526.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = J9GZXLFK2X;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/HiveApp526/BaiduMapAPI",
+				);
+				INFOPLIST_FILE = HiveApp526/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/HiveApp526/BaiduMapAPI/thirdlibs",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.soyoung.HiveAppExtention;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "526cafeb-33e4-4f33-95cc-43039b99a4b1";
+				PROVISIONING_PROFILE_SPECIFIER = HiveApp_dev20180109;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A4CDF59B206A1F81002F80EA /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 64DF2B97E03CCE2658B48610 /* Pods-HiveApp526.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = J9GZXLFK2X;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/HiveApp526/BaiduMapAPI",
+				);
+				INFOPLIST_FILE = HiveApp526/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/HiveApp526/BaiduMapAPI/thirdlibs",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.soyoung.HiveAppExtention;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "f636b386-031e-4f3d-b401-6a2884fe9b9e";
+				PROVISIONING_PROFILE_SPECIFIER = HiveApp_Dis409;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		A4CDF59D206A1F81002F80EA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = HiveApp526Tests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.soyoung.HiveApp526Tests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HiveApp526.app/HiveApp526";
+			};
+			name = Debug;
+		};
+		A4CDF59E206A1F81002F80EA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = HiveApp526Tests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.soyoung.HiveApp526Tests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HiveApp526.app/HiveApp526";
+			};
+			name = Release;
+		};
+		A4CDF5A0206A1F81002F80EA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = HiveApp526UITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.soyoung.HiveApp526UITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = HiveApp526;
+			};
+			name = Debug;
+		};
+		A4CDF5A1206A1F81002F80EA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = HiveApp526UITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.soyoung.HiveApp526UITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = HiveApp526;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A4CDF568206A1F81002F80EA /* Build configuration list for PBXProject "HiveApp526" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A4CDF597206A1F81002F80EA /* Debug */,
+				A4CDF598206A1F81002F80EA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A4CDF599206A1F81002F80EA /* Build configuration list for PBXNativeTarget "HiveApp526" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A4CDF59A206A1F81002F80EA /* Debug */,
+				A4CDF59B206A1F81002F80EA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A4CDF59C206A1F81002F80EA /* Build configuration list for PBXNativeTarget "HiveApp526Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A4CDF59D206A1F81002F80EA /* Debug */,
+				A4CDF59E206A1F81002F80EA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A4CDF59F206A1F81002F80EA /* Build configuration list for PBXNativeTarget "HiveApp526UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A4CDF5A0206A1F81002F80EA /* Debug */,
+				A4CDF5A1206A1F81002F80EA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A4CDF565206A1F81002F80EA /* Project object */;
+}
